@@ -1,4 +1,4 @@
-# Maratona premiada => Desenvolvendo carrinho de compras
+# Maratona premiada => Desenvolvendo restaurante Kenzie
 
 Projeto desenvolvido para o maratona premiada no 11 de Junho de 2022.
 
@@ -32,7 +32,7 @@ Projeto desenvolvido para o maratona premiada no 11 de Junho de 2022.
 
 ## Layout
 
-- [Layout Maratona premiada => Desenvolvendo carrinho de compras](https://www.figma.com/file/ONBBqq2qNpTSnixZHqUnSs/Maratona-Premiada---Kenzie?node-id=0%3A1)
+- [Layout Maratona premiada => Desenvolvendo restaurante Kenzie](https://www.figma.com/file/ONBBqq2qNpTSnixZHqUnSs/Maratona-Premiada---Kenzie?node-id=0%3A1)
 
 ## LinkedIn dos Instrutores
 
