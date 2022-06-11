@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <link rel="stylesheet" href="./assets/css/colors.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Kenzie Restaurante</title>
+  </head>
+  <body>
+    <!--  CABECALHO -->
+    <header>
+      <div class="container">
+        <img src="./assets/img/logo-kenzie.png" alt="logo kenzie Academy" />
+        <h1>Restaurante</h1>
+      </div>
+    </header>
+
+    <!--  CONTEUDO PRINCIPAL  -->
+    <main class="container">
+      <!--  VITRINE DE PRODUTOS  -->
+      <section class="products">
+        <ul class="products-list">
+          <!--  primeiro produto  -->
+          <li class="product">
+            <img src="./assets/img/kenzie_burgao.png" alt="Kenzie Burgao" />
+            <h3 class="title-1">Kenzie Burgão</h3>
+            <p class="text-caption color-grey-3">
+              O Hambúrguer do Dev Full Stack Kenzie!
+            </p>
+            <div class="footer-products">
+              <span class="title-2">R$ 28,00</span>
+              <button>
+                <img src="./assets/img/cart-icon.png" alt="icone do carrinho" />
+              </button>
+            </div>
+          </li>
+          <!--  segundo produto  -->
+          <li class="product">
+            <img
+              src="./assets/img/refrigerante.png"
+              alt=" imagem refrigerante"
+            />
+            <h3 class="title-1">Refrigerante</h3>
+            <p class="text-caption color-grey-3">
+              Refrigerante bem gelado para acompanhar sua refeição
+            </p>
+
+            <div class="footer-products">
+              <span class="title-2">R$ 7,50</span>
+              <button>
+                <img src="./assets/img/cart-icon.png" alt="icone do carrinho" />
+              </button>
+            </div>
+          </li>
+          <!--  terceiro produto  -->
+          <li class="product">
+            <img src="./assets/img/kenzie_burguinho.png" alt="Kenzie Burgao" />
+            <h3 class="title-1">Kenzie Burguinho</h3>
+            <p class="text-caption color-grey-3">
+              Delicioso hambúrguer acompanhado de um ovo frito de gema mole!
+            </p>
+
+            <div class="footer-products">
+              <span class="title-2">R$ 22,00</span>
+              <button>
+                <img src="./assets/img/cart-icon.png" alt="icone do carrinho" />
+              </button>
+            </div>
+          </li>
+          <!--  quarto produto  -->
+          <li class="product">
+            <img src="./assets/img/frango_frito.png" alt="Kenzie Burgao" />
+            <h3 class="title-1">Frango Frito</h3>
+            <p class="text-caption color-grey-3">
+              Frango frito e crocante com molho especial
+            </p>
+            <div class="footer-products">
+              <span class="title-2">R$ 25,00</span>
+              <button>
+                <img src="./assets/img/cart-icon.png" alt="icone do carrinho" />
+              </button>
+            </div>
+          </li>
+          <!--  quinto produto  -->
+          <li class="product">
+            <img src="./assets/img/batata_frita.png" alt="Kenzie Burgao" />
+            <h3 class="title-1">Batata Frita</h3>
+            <p class="text-caption color-grey-3">
+              Batata frita acompanhada de molho especial
+            </p>
+            <div class="footer-products">
+              <span class="title-2">R$ 15,00</span>
+              <button>
+                <img src="./assets/img/cart-icon.png" alt="icone do carrinho" />
+              </button>
+            </div>
+          </li>
+          <!--  sexto produto  -->
+          <li class="product">
+            <img
+              src="./assets/img/sanduiche_frango_frito.png"
+              alt="Kenzie Burgao"
+            />
+            <h3 class="title-1">Sanduíche com Frango Frito</h3>
+            <p class="text-caption">
+              Pão, frango frito e salada para acompanhar
+            </p>
+
+            <div class="footer-products">
+              <span class="title-2">R$ 20,00</span>
+              <button>
+                <img src="./assets/img/cart-icon.png" alt="icone do carrinho" />
+              </button>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!--  CARRINHO   -->
+      <aside>
+        <!-- titulo do carrinho-->
+        <div class="flex header-carrinho">
+          <h4>Carrinho</h4>
+        </div>
+        <!--carrinho-->
+        <div class="carrinho">
+          <ul class="products-selected">
+            <li class="flex">
+              <div class="product-image">
+                <img
+                  src="./assets/img/sanduiche_frango_frito.png"
+                  alt="sanduiche frango frito"
+                />
+              </div>
+
+              <div>
+                <div class="flex">
+                  <h3 class="title-2 mini-descricao">
+                    Sanduíche com Frango Frito
+                  </h3>
+                  <button class="trash-btn">
+                    <img src="./assets/img/trash.png" alt="icone lixeira" />
+                  </button>
+                </div>
+                <div class="footer-cart">
+                  <p class="text-caption">R$ 20,00</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <div class="totalizador">
+            <h4 class="title-3">Quantidade</h4>
+            <h4 class="title-3">4</h4>
+          </div>
+
+          <div class="totalizador">
+            <h4 class="title-3">Total</h4>
+            <h4 class="title-3">R$ 67,00</h4>
+          </div>
+
+          <button class="btn-finalizar-pedido">Realizar pedido</button>
+        </div>
+      </aside>
+    </main>
+  </body>
+</html>

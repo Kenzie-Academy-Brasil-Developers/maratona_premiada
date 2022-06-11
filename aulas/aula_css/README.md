@@ -9,5 +9,3 @@ O CSS, Cascading Style Sheets(Folha de Estilos em Cascata, em português), é um
 - **Seletor (quem)**
 - **Propriedade (atributo que eu quero estilizar)**
 - **Valor da propriedade ()**
-- **Declaração**
-
