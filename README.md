@@ -28,21 +28,11 @@ Projeto desenvolvido para o maratona premiada no 11 de Junho de 2022.
 
 ### Fonte
 
-- 'Roboto', sans-serif;
-
-### Cores
-
-- Branco: #ffffff;
-- Cinza Claro: #cccccc;
-- Cinza Mais Claro 1: #f8f8f8;
-- Cinza Mais Claro 2: #d9d9d9;
-- Cinza Mais Claro 3: #fafafa;
-- Cinza Escuro 1: rgb(49, 49, 49);
-- Cinza Escuro 2: #606060;
+- 'Poppins', sans-serif;
 
 ## Layout
 
-- [Layout Maratona premiada => Desenvolvendo carrinho de compras]()
+- [Layout Maratona premiada => Desenvolvendo carrinho de compras](https://www.figma.com/file/ONBBqq2qNpTSnixZHqUnSs/Maratona-Premiada---Kenzie?node-id=0%3A1)
 
 ## LinkedIn dos Instrutores
 
